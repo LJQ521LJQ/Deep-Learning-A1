@@ -3,7 +3,7 @@ The model is implemented in Python and trained on a pre-processed version of the
 # how to run
 Clone this repository:
    ```bash
-   git clone https://github.com/your-repo/perceptron-diabetes.git
+   git clone https://github.com/LJQ521LJQ/Deep-Learning-A1.git
    cd perceptron-diabetes
 ## run the python src/
 perceptron.py
