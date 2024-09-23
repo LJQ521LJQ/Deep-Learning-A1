@@ -5,4 +5,5 @@ Clone this repository:
    ```bash
    git clone https://github.com/your-repo/perceptron-diabetes.git
    cd perceptron-diabetes
-run the python src/perceptron.py
+# run the python src/
+perceptron.py
