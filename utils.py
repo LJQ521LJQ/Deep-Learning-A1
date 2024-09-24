@@ -27,3 +27,15 @@ def split_data(X, y, test_size=0.2, random_state=42):
         X_train, X_test, y_train, y_test: Training and testing sets
     """
     return train_test_split(X, y, test_size=test_size, random_state=random_state)
+def split_data(X, y, test_size=0.2, random_state=42):
+    """
+    Split the data into training and testing sets.
+    Args:
+        X: numpy array - Features
+        y: numpy array - Labels
+        test_size: float - Proportion of the dataset to include in the test split
+        random_state: int - Random seed
+    Returns:
+        X_train, X_test, y_train, y_test: Training and testing sets
+    """
+    return train_test_split(X, y, test_size=test_size, random_state=random_state)
